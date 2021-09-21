@@ -1,7 +1,5 @@
 # qupid
 
-> Now, importing whole library of [python-qupid](https://github.com/Isaac-Kwon/qupid) to C++
-
 **Qu**asi-Signal Generation Model for **Pi**xelized **D**etector
 
 ## Requirement
