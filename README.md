@@ -14,7 +14,7 @@
 1. Clone Repository
 
    ```bash
-   git clone https://github.com/Isaac-Kwon/c-qupid.git
+   git clone https://github.com/Isaac-Kwon/qupid.git
    ```
 
 2. Make and enter the build directory
@@ -40,3 +40,4 @@
 
 * All *.cxx file in test directory will be built as executable.
   * Incompleted *.cxx file should be removed to suppress build error.
+* Imported(translated) from [python version](https://github.com/Isaac-Kwon/pyqupid)
