@@ -1,6 +1,6 @@
 # qupid
 
-[![DOI:10.5281/zenodo.5519750](https://zenodo.org/badge/408895120.svg)](https://zenodo.org/badge/latestdoi/408895120)
+[![DOI](https://zenodo.org/badge/408895120.svg)](https://zenodo.org/badge/latestdoi/408895120)
 
 **Qu**asi-Signal Generation Model for **Pi**xelized **D**etector
 
