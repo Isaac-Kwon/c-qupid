@@ -35,7 +35,7 @@
 4. Make
 
    ```bash
-   make ..
+   make
    ```
 
 ## Note
