@@ -1,6 +1,6 @@
 # qupid
 
-> Now, importing whole library of [python-qupid](https://github.com/Isaac-Kwon/qupid) to C++
+[![DOI](https://zenodo.org/badge/408895120.svg)](https://zenodo.org/badge/latestdoi/408895120)
 
 **Qu**asi-Signal Generation Model for **Pi**xelized **D**etector
 
@@ -16,7 +16,7 @@
 1. Clone Repository
 
    ```bash
-   git clone https://github.com/Isaac-Kwon/c-qupid.git
+   git clone https://github.com/Isaac-Kwon/qupid.git
    ```
 
 2. Make and enter the build directory
@@ -35,10 +35,11 @@
 4. Make
 
    ```bash
-   make ..
+   make
    ```
 
 ## Note
 
 * All *.cxx file in test directory will be built as executable.
   * Incompleted *.cxx file should be removed to suppress build error.
+* Imported(translated) from [python version](https://github.com/Isaac-Kwon/pyqupid)
