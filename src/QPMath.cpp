@@ -227,3 +227,9 @@ double QPMath::Gaus(const double& x, const double& mean, const double& sigma, co
    if (!norm) return res;
    return res/(2.50662827463100024*sigma); //sqrt(2*Pi)=2.50662827463100024
 }
+
+
+QPMatrix& QPMath::RotationMatrix(double theta){
+    QPMatrix ans = QPMatrix(2,2,4,QPMath::Cos(theta), -QPMath::Sin(theta), QPMath::Sin(theta), QPMath::Cos(theta));
+    return ans;
+}

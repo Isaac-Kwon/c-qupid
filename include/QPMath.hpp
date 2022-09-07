@@ -114,6 +114,8 @@ namespace QPMath{
     double Exp(const double& x);
     double Gaus(const double& x, const double& mean, const double& sigma, const bool& norm);
 
+    QPMatrix& RotationMatrix(double theta);
+
 };
 
 #endif
