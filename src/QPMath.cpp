@@ -169,6 +169,10 @@ double QPMath::WoodSaxon::RotAxis2DUnsync(double x, double y,
     return QPMath::WoodSaxon::Simple1D(dist, maximum, 0, a, radius);
 }
 
+double QPMath::GeometryCalc::EllipseUniAxis(double x, double y, double lx, double ly){
+    return QPMath::GeometryCalc::EllipseRotAxis(x, y, lx, ly, 0);
+}
+
 double QPMath::GeometryCalc::EllipseRotAxis(double x, double y, double lx, double ly, double theta){
     double angle = QPMath::GeometryCalc::Angle(x,y) - theta;
     double xp = lx * QPMath::Cos(angle);
