@@ -4,8 +4,6 @@
 #include "QPDigitizerBase.hpp"
 #include "QPPixel.hpp"
 
-#include "TH2D.h"
-
 class QPGraphFactory;
 
 class QPDigitizerSquare: public QPDigitizerBase{
